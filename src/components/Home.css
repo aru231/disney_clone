@@ -1,0 +1,13 @@
+.home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  top: 72px;
+  display: block;
+  padding: 0 calc(3.5vw + 5px);
+}
+
+/* .image{
+    background-size: 100%;
+} */
