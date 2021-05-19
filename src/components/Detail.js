@@ -42,7 +42,6 @@ const Detail = (props) => {
             alt={data.title}
           />
         </div>
-        <div className="metadata">
           <div className="contentt">
             <button className="play">
               <img src={playimg} alt="" />
@@ -53,20 +52,19 @@ const Detail = (props) => {
               <h2>TRAILER</h2>
             </button>
             <button className="plus">
-              <AddIcon />
+              <AddIcon fontSize="large"/>
             </button>
             <button className="plus">
-              <GroupIcon />
+              <GroupIcon fontSize="large"/>
             </button>
           </div>
           <div className="subtitle">
             <span>{data.subTitle}</span>
           </div>
           <div className="descript">
-            <span>{data.description}</span>
+            <p>{data.description}</p>
           </div>
         </div>
-      </div>
     </>
   );
 };

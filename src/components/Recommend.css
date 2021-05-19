@@ -26,13 +26,15 @@
   opacity: 1;
   position: absolute;
   object-fit: cover;
+  height: 205px;
+  width: 325px;
 }
 
 h4 {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
- .links img:hover {
+ .links:hover {
   box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
     rgb(0 0 0 / 72%) 0px 30px 22px -10px;
   transform: scale(1.05);

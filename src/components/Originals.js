@@ -1,10 +1,10 @@
 import "./Recommend.css";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { selectRecommends } from "../features/movieSlice";
+import { selectOriginals } from "../features/movieSlice";
 
 const Originals = (props) => {
-  const movies = useSelector(selectRecommends);
+  const movies = useSelector(selectOriginals);
 
   return (
     <>
