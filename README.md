@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Online Deployment
 
-https://disneyclone231.netlify.app/home
+https://disneyclone231.netlify.app/
 
 ## Available Scripts
 
