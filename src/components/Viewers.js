@@ -9,7 +9,6 @@ import video2 from "../videos/marvel.mp4";
 import video3 from "../videos/national-geographic.mp4";
 import video4 from "../videos/pixar.mp4";
 import video5 from "../videos/star-wars.mp4";
-import HoverVideoPlayer from "react-hover-video-player";
 import { useState } from "react";
 
 const Viewers = (props) => {
